@@ -1014,3 +1014,60 @@ section{
 .footer-bottom a:hover{
     color: #fff;
 }
+
+/* ==================================
+        FLOATING BUTTONS
+================================== */
+
+.floating-buttons{
+
+    position:fixed;
+    right:20px;
+    bottom:20px;
+
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+
+    z-index:9999;
+
+}
+
+.float-btn{
+
+    width:60px;
+    height:60px;
+
+    border-radius:50%;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    font-size:1.6rem;
+
+    color:#fff;
+
+    box-shadow:var(--shadow);
+
+    transition:var(--transition);
+
+}
+
+.float-btn:hover{
+
+    transform:translateY(-4px) scale(1.08);
+
+}
+
+.call-btn{
+
+    background:#C89B3C;
+
+}
+
+.whatsapp-btn{
+
+    background:#25D366;
+
+}
